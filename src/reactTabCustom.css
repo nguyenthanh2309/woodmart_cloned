@@ -1,0 +1,20 @@
+.react-tabs__tab-list {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.react-tabs__tab {
+    padding: 0;
+    margin: 10px 30px 10px 0;
+}
+
+.react-tabs__tab:last-child{
+    margin-right: 0;
+}
+
+.react-tabs__tab--selected {
+    border: none;
+    border-bottom: 2px solid #2e6bc6;
+}
